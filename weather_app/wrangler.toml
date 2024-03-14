@@ -1,0 +1,18 @@
+name = "weather_app"
+compatibility_date = "2023-12-01"
+
+[vars]
+auth_token = "fgi3j4593u3848344resd443"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "weather_app"
+database_id = "b656a94f-4e2c-4633-bb3c-d76fba1784bd"
